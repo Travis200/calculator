@@ -1,5 +1,5 @@
 name: dotnet package
-working-directory: MyUnitTestProject
+working-directory: ../../MyUnitTestProject
 
 on: [push]
 
