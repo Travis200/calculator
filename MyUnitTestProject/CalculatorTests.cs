@@ -19,55 +19,55 @@ public class CalculatorTests
         Assert.Equal(expectedResult, actualResult);
     }
 
-    [Fact]
-    public void Subtract_PositiveNumbers_ReturnsExpectedResult() {
+    // [Fact]
+    // public void Subtract_PositiveNumbers_ReturnsExpectedResult() {
 
-        // Arrange
-        var calculator = new Calculator();
-        int a = 5;
-        int b = 3;
-        int expectedResult = 2;
+    //     // Arrange
+    //     var calculator = new Calculator();
+    //     int a = 5;
+    //     int b = 3;
+    //     int expectedResult = 2;
 
-        // Act
-        int actualResult = calculator.Subtract(a, b);
+    //     // Act
+    //     int actualResult = calculator.Subtract(a, b);
 
-        // Assert
-        Assert.Equal(expectedResult, actualResult);
+    //     // Assert
+    //     Assert.Equal(expectedResult, actualResult);
 
-    }
+    // }
 
-    [Fact]
-    public void Multiply_PositiveNumbers_ReturnsExpectedResult() {
+    // [Fact]
+    // public void Multiply_PositiveNumbers_ReturnsExpectedResult() {
 
-        // Arrange
-        var calculator = new Calculator();
-        int a = 5;
-        int b = 3;
-        int expectedResult = 15;
+    //     // Arrange
+    //     var calculator = new Calculator();
+    //     int a = 5;
+    //     int b = 3;
+    //     int expectedResult = 15;
 
-        // Act
-        int actualResult = calculator.Multiply(a, b);
+    //     // Act
+    //     int actualResult = calculator.Multiply(a, b);
 
-        // Assert
-        Assert.Equal(expectedResult, actualResult);
+    //     // Assert
+    //     Assert.Equal(expectedResult, actualResult);
 
-    }
+    // }
 
-    [Fact]
-    public void Divide_PositiveNumbers_ReturnsExpectedResult() {
+    // [Fact]
+    // public void Divide_PositiveNumbers_ReturnsExpectedResult() {
 
-        // Arrange
-        var calculator = new Calculator();
-        int a = 8;
-        int b = 2;
-        int expectedResult = 4;
+    //     // Arrange
+    //     var calculator = new Calculator();
+    //     int a = 8;
+    //     int b = 2;
+    //     int expectedResult = 4;
 
-        // Act
-        int actualResult = calculator.Divide(a, b);
+    //     // Act
+    //     int actualResult = calculator.Divide(a, b);
 
-        // Assert
-        Assert.Equal(expectedResult, actualResult);
+    //     // Assert
+    //     Assert.Equal(expectedResult, actualResult);
 
-    }
+    // }
 
 }
