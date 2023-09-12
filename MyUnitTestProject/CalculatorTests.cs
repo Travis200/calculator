@@ -6,7 +6,7 @@ public class CalculatorTests
     [Fact]
     public void Add_PositiveNumbers_ReturnsExpectedResult()
     {
-        try {
+        // try {
             // Arrange
             var calculator = new Calculator();
             int a = 3;
@@ -18,11 +18,11 @@ public class CalculatorTests
 
             // Assert
             Assert.Equal(expectedResult, actualResult);
-        }
+        // }
 
-        catch (ArgumentException e) {
-            console.WriteLine(e)
-        }
+        // catch (ArgumentException e) {
+        //     console.WriteLine(e)
+        // }
     }
 
     // [Fact]
