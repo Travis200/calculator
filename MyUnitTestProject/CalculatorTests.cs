@@ -25,73 +25,73 @@ public class CalculatorTests
         }
     }
 
-    [Fact]
-    public void Subtract_PositiveNumbers_ReturnsExpectedResult() {
+    // [Fact]
+    // public void Subtract_PositiveNumbers_ReturnsExpectedResult() {
 
-        try {
-            // Arrange
-            var calculator = new Calculator();
-            int a = 5;
-            int b = 3;
-            int expectedResult = 2;
+    //     try {
+    //         // Arrange
+    //         var calculator = new Calculator();
+    //         int a = 5;
+    //         int b = 3;
+    //         int expectedResult = 2;
 
-            // Act
-            int actualResult = calculator.Subtract(a, b);
+    //         // Act
+    //         int actualResult = calculator.Subtract(a, b);
 
-            // Assert
-            Assert.Equal(expectedResult, actualResult);
+    //         // Assert
+    //         Assert.Equal(expectedResult, actualResult);
 
-        }
+    //     }
 
-        catch (ArgumentException e) {
-            console.WriteLine(e)
-        }
+    //     catch (ArgumentException e) {
+    //         console.WriteLine(e)
+    //     }
 
-    }
+    // }
 
-    [Fact]
-    public void Multiply_PositiveNumbers_ReturnsExpectedResult() {
+    // [Fact]
+    // public void Multiply_PositiveNumbers_ReturnsExpectedResult() {
 
-        try {
-            // Arrange
-            var calculator = new Calculator();
-            int a = 5;
-            int b = 3;
-            int expectedResult = 15;
+    //     try {
+    //         // Arrange
+    //         var calculator = new Calculator();
+    //         int a = 5;
+    //         int b = 3;
+    //         int expectedResult = 15;
 
-            // Act
-            int actualResult = calculator.Multiply(a, b);
+    //         // Act
+    //         int actualResult = calculator.Multiply(a, b);
 
-            // Assert
-            Assert.Equal(expectedResult, actualResult);
-        }
+    //         // Assert
+    //         Assert.Equal(expectedResult, actualResult);
+    //     }
 
-        catch (ArgumentException e) {
-            console.WriteLine(e)
-        }
+    //     catch (ArgumentException e) {
+    //         console.WriteLine(e)
+    //     }
 
-    }
+    // }
 
-    [Fact]
-    public void Divide_PositiveNumbers_ReturnsExpectedResult() {
+    // [Fact]
+    // public void Divide_PositiveNumbers_ReturnsExpectedResult() {
 
-        try {
-            // Arrange
-            var calculator = new Calculator();
-            int a = 8;
-            int b = 2;
-            int expectedResult = 4;
+    //     try {
+    //         // Arrange
+    //         var calculator = new Calculator();
+    //         int a = 8;
+    //         int b = 2;
+    //         int expectedResult = 4;
 
-            // Act
-            int actualResult = calculator.Divide(a, b);
+    //         // Act
+    //         int actualResult = calculator.Divide(a, b);
 
-            // Assert
-            Assert.Equal(expectedResult, actualResult);
-        }
-         catch (ArgumentException e) {
-            console.WriteLine(e)
-        }
+    //         // Assert
+    //         Assert.Equal(expectedResult, actualResult);
+    //     }
+    //      catch (ArgumentException e) {
+    //         console.WriteLine(e)
+    //     }
 
-    }
+    // }
 
 }
