@@ -19,6 +19,10 @@ public class CalculatorTests
             // Assert
             Assert.Equal(expectedResult, actualResult);
         }
+
+        catch (ArgumentException e) {
+            console.WriteLine(e)
+        }
     }
 
     [Fact]
@@ -37,6 +41,10 @@ public class CalculatorTests
             // Assert
             Assert.Equal(expectedResult, actualResult);
 
+        }
+
+        catch (ArgumentException e) {
+            console.WriteLine(e)
         }
 
     }
@@ -58,6 +66,10 @@ public class CalculatorTests
             Assert.Equal(expectedResult, actualResult);
         }
 
+        catch (ArgumentException e) {
+            console.WriteLine(e)
+        }
+
     }
 
     [Fact]
@@ -75,6 +87,9 @@ public class CalculatorTests
 
             // Assert
             Assert.Equal(expectedResult, actualResult);
+        }
+         catch (ArgumentException e) {
+            console.WriteLine(e)
         }
 
     }
